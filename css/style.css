@@ -1,0 +1,220 @@
+/*index.php*/
+#indexbody {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+#navigation {
+	background-color: #C8CD69;
+	padding: 10px;
+	border-radius: 7px;
+}
+.nav-item {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: 700;
+}
+.nav-link:hover {
+	text-transform: lowercase;
+}
+.active {
+	border-bottom: 3px solid #000;
+	text-transform: lowercase;
+}
+#credsinput {
+	margin-top: 15px;
+	padding: 15px;
+}
+.credinput {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: 700;
+	text-decoration: none;
+}
+.credinput:hover {
+	border-bottom: 3px solid tomato;
+	text-decoration: none;
+}
+
+
+#bodyindex {
+	margin-top: 15px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer {
+	padding: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#imagessocial {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.footerlinks {
+	text-decoration: none;
+	font-weight: 700;
+}
+.footerlinks:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+/*signup.php*/
+.form {
+	max-width: 950px;
+	margin: 0 auto;
+}
+label {
+	font-size: 20px;
+}
+#signupcontainer {
+	background-image: url('../images/backgroundsignup.jpg');
+	background-repeat: repeat;
+}
+
+
+/*login.php*/
+#loginholder {
+	margin-top: 50px;
+}
+
+
+
+/*dashboard.php*/
+#footerquicklinks {
+	display: block;
+	font-size: 18px;
+}
+.quickitem {}
+.quicklink {
+	color: #000000;
+	text-decoration: none;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.quicklink:hover {
+	text-decoration: underline;
+	text-decoration-style: solid;
+}
+
+
+.footersocials {
+	text-decoration: none;
+}
+.footersocials:hover {
+	text-decoration: none;
+}
+#imagessocial:hover {
+	text-decoration: none;
+}
+
+
+#footercol1 {
+	margin-top:20px; 
+	border-bottom:3px solid #ffffff;
+}
+#footercol2 {
+	 margin-top:25px; 
+	 border-left:3px solid #fff; 
+	 border-top:3px solid #fff; 
+	 border-right:3px solid #fff;
+}
+#footercol3 {
+	margin-top:20px; 
+	border-bottom:3px solid #fff;
+	margin-top: 50px;
+}
+
+
+
+/*blog.php*/
+.newfleetcard {
+	width: 150px;
+	height: 150px;
+	border: 3px solid #6ab942;
+}
+
+.newfleetcard:hover {
+	background-color: tomato;
+}
+
+#newfleetcardimg {
+	width: 200px;
+	height: 200px;
+}
+
+
+/*gallery.php*/
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+  
+
+
+
+/*about.php*/
+#contGrpAbout {
+	display: grid;
+	grid-template-areas:
+	'introAbout introAbout introAbout introAbout'
+	'msgAbout msgAbout concAbout concAbout'
+	'footerAbout footerAbout footerAbout footerAbout'
+	;
+	grid-gap: 5px;
+}
+#about1 {
+	grid-area: introAbout;
+	padding: 20px;
+	text-align: justify;
+}
+#about2 {
+	grid-area: msgAbout;
+	background-color: #ac0236;
+	background-image: ;
+	padding: 20px;
+}
+#about3 {
+	grid-area: concAbout;
+	background-color: #d06167;
+	padding: 20px;
+}
+#about4 {
+	grid-area: footerAbout;
+	padding: 20px;
+}
+
+
