@@ -234,10 +234,10 @@ if (isset($_POST['detailsSubmit'])) {
 			<div class="form-group">
 				<div class="row">
 					<div class="col">
-						<input type="submit" name="detailsSubmit" id="detailsSubmit" class="btn btn-block btn-success">
+						<input type="submit" name="detailsSubmit" id="detailsSubmit" class="btn btn-block btn-success" value="Register">
 					</div>
 					<div class="col">
-						<input type="reset" name="reset" id="reset" class="btn btn-block btn-danger">
+						<input type="reset" name="reset" id="reset" class="btn btn-block">
 					</div>
 				</div>
 			</div>

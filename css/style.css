@@ -78,6 +78,13 @@ label {
 	background-image: url('../images/backgroundsignup.jpg');
 	background-repeat: repeat;
 }
+#reset {
+	text-decoration: none;
+}
+#reset:hover {
+	text-decoration: underline;
+	color: blue;
+}
 
 
 /*login.php*/
@@ -203,13 +210,10 @@ img {vertical-align: middle;}
 }
 #about2 {
 	grid-area: msgAbout;
-	background-color: #ac0236;
-	background-image: ;
 	padding: 20px;
 }
 #about3 {
 	grid-area: concAbout;
-	background-color: #d06167;
 	padding: 20px;
 }
 #about4 {
@@ -218,3 +222,8 @@ img {vertical-align: middle;}
 }
 
 
+
+/*hire.php*/
+.truckTypeSel {
+	font-size: 15px;
+}

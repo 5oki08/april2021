@@ -5,7 +5,9 @@ include '../connection.php' ;
 $custFName = $custSName = $custArea = $custidNo = $workType = $custEmail = $custPhone = $truckType = '' ;
 $custFNameErr = $custSNameErr = $custAreaErr = $custidNoErr = $workTypeErr = $custEmailErr = $custPhoneErr = $truckTypeErr = '' ;
 
-$_SESSION['detailsApprove'] = "Hire Details Approved" ;
+$id = 0 ;
+
+$_SESSION['detailsApprove'] = "Hire Details Submitted" ;
 $_SESSION['classTypeSuccess'] = "success" ;
 $_SESSION['detailsFail'] = "Hire Details Denied" ;
 $_SESSION['classTypeError'] = "danger" ;
@@ -80,6 +82,18 @@ if ( isset($_POST['uploadHireDetails']) ) {
 }
 
 
+// // pick data from db
+// $resultHire = $conn->query(" SELECT * FROM usersgreenseasons WHERE id='$id' ") or die($conn->error) ;
+
+// $row = $resultHire->fetch_array() ;
+
+// $fName = $row['custFName'] ;
+// $sName = $row['custSName'] ;
+// $userLocation = $row['custArea'] ;
+// $userMail = $row['custEmail'] ;
+// $userPhone = $row['custPhone'] ;
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -97,7 +111,7 @@ if ( isset($_POST['uploadHireDetails']) ) {
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" type="text/css" href="../css/style.css">	
-<link rel="stylesheet" type="text/css" href="css/styleresponsive.css">
+<link rel="stylesheet" type="text/css" href="../css/styleresponsive.css">
 <style type="text/css">
 	p {
 		color: red;
@@ -105,6 +119,7 @@ if ( isset($_POST['uploadHireDetails']) ) {
 		text-decoration: underline;
 		text-decoration-style: dotted;
 	}
+	label {font-size:15px;}
 </style>
 
 </head>
@@ -146,7 +161,7 @@ if ( isset($_POST['uploadHireDetails']) ) {
 						<div class="row">
 							<div class="col-md">
 								<div class="form-group">
-									<input type="text" name="custFName" id="custFName" class="form-control" placeholder="Enter First Name">
+									<input type="text" name="custFName" id="custFName" class="form-control" placeholder="Enter First Name" >
 									<p> <?php echo $custFNameErr; ?> </p>
 								</div>
 							</div>
@@ -207,7 +222,7 @@ if ( isset($_POST['uploadHireDetails']) ) {
 									<input type="submit" name="uploadHireDetails" id="uploadHireDetails" value="Upload Hire Details" class="btn btn-block btn-success">
 								</div>
 								<div class="col">
-									<input type="reset" name="reset" id="reset" value="resetForm" class="btn btn-block btn-danger">
+									<input type="reset" name="reset" id="reset" value="resetForm" class="btn btn-block">
 								</div>
 							</div>
 						</div>

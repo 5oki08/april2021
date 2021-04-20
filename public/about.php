@@ -53,8 +53,12 @@
     		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     	</div>
     </div>
-    <div id="about2"></div>
-    <div id="about3">3</div>
+    <div id="about2">
+    	<p>Ferrari S.p.A. (/fəˈrɑːri/; Italian: [ferˈraːri]) is an Italian luxury sports car manufacturer based in Maranello, Italy. Founded by Enzo Ferrari in 1939 out of the Alfa Romeo race division as Auto Avio Costruzioni, the company built its first car in 1940, and produced its first Ferrari-badged car in 1947. </p>
+    </div>
+    <div id="about3">
+    	<p>Automobiles Ettore Bugatti was a French car manufacturer of high-performance automobiles, founded in 1909 in the then-German city of Molsheim, Alsace by the Italian-born industrial designer Ettore Bugatti. The cars were known for their design beauty and for their many race victories. Famous Bugattis include the Type 35 Grand Prix cars, the Type 41 "Royale", the Type 57 "Atlantic" and the Type 55 sports car. </p>
+    </div>
     <div id="about4">
     	<div class="row">
     		<div class="col-md-2"></div>

@@ -2,7 +2,7 @@
 session_start() ;
 include '../connection.php' ;
 
-$userLogMail = $userLogPassword = $userLogPasswordEncrypt = '' ;
+$userLogMail = $userLogPassword = '' ;
 $userLogMailErr = $userLogPasswordErr = '' ;
 
 
@@ -13,7 +13,7 @@ if ( isset($_POST['userLogSubmit']) ) {
 	if ( empty($_POST['userLogMail']) ) {
 		$userLogMailErr = "invalid email input" ; 
 	} else {
-		$userLogMail = $_POST['userLogSubmit'] ;
+		$userLogMail = $_POST['userLogMail'] ;
 	}
 	if ( empty($_POST['userLogPassword']) ) {
 		$userLogPasswordErr = "invalid password" ; 
@@ -25,17 +25,16 @@ if ( isset($_POST['userLogSubmit']) ) {
 	$loginsql = " SELECT * FROM usersgreenseasons WHERE userMail='$userLogMail' && userPassword='".md5($userLogPassword)."' " ;
 	$result = mysqli_query($conn,$loginsql) ;
 	$nums = mysqli_num_rows($result) ;
-
-	if ( $nums=1 ) {
+	if ( $nums==1 ) {
 		if (empty($userLogMailErr) && empty($userLogPasswordErr) ) {
 			$_SESSION['activeuser'] = $userLogMail ;
 			header('location: ../public/dashboard.php') ;
-			} else {
+			}  
+		} else {
 				$_SESSION['userLogReject'] ;
 				$_SESSION['classTypeError'] ;
 				header('location: login.php?credInvalid') ;
 			} 
-		}  
 }
 
 ?>

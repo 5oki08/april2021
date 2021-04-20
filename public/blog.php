@@ -64,7 +64,7 @@ session_start() ;
 									session_unset();
 									session_destroy();
 								} else {
-									echo "Hire Details Approved. Our team will get back to you in due time." ;
+									echo "Hire Details Submitted. Our team will get back to you in due time." ;
 								}
 							}
 							if ( isset($_GET['hireDetailsFail']) ) {
