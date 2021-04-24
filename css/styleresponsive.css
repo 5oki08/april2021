@@ -1,0 +1,26 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+/*index.html*/
+#menubtn {float: right; width:50%; text-align:center; padding-top:10px; padding-bottom:10px;}
+#navmenu {margin-top:35px; margin-left:50px; margin-right:50px;}
+#introimage {text-align:center;}
+figcaption {text-align:none;}
+#introStmt {margin:none; text-align:center; margin-top:20px;}
+
+
+/*blog.html*/
+.card {border:5px solid tomato; width:100%; padding:25px;}
+#climatechangeblogimage {}
+.card-header {margin:none;}
+#climatechangetitle {}
+.card-body {}
+#climatechangetext {}
+
+/*#climatechangeblogimage {margin-top:30px;}
+.card-header { margin-left:50px;}
+#climatechangetitle {font-size:20px; background-color:#fff; text-align:center;}
+.card-body { margin-left:50px;}
+#climatechangetext {}*/
+
+}

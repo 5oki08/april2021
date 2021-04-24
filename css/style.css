@@ -1,0 +1,40 @@
+index.html*/
+#menubtn {border:3px solid ; padding:8px; border-radius:5px; text-decoration:none;}
+#menubtn:hover {text-decoration:none;}
+.list-group-item {text-align: center; padding: 5px; }
+.list-group-item:hover {}
+.nav-link {color: #000; text-decoration:none;}
+.nav-link:hover {color:#b87333; font-weight:700; text-decoration:none;}
+.active {text-transform: lowercase; border-bottom: 3px solid #b87333; font-weight:600;}
+#indexContent {margin-top:30px;}
+#introimage {width:400px; height:400px;}
+figcaption {margin-top:5px; text-align:center;}
+#introStmt {align-content:center;}
+.name {margin-top:50px; text-align:center;}
+#footer {}
+#footerCol1 {margin-top:20px; margin-bottom:20px;}
+#footerCol2 {text-align:center; margin-top:20px; margin-bottom:20px;}
+.socialLink {width:50px; height:50px;}
+#footerCol3 {text-align:center; margin-top:20px; margin-bottom:20px;}
+.readStmts {text-decoration:none;}
+.readStmts:hover {font-weight:700;}
+
+
+/*about.html*/
+#aboutFlex {display:grid; grid-template-areas:'topstory topstory topstory topstory topstory' 'ad1 ad1 ad1 ad2 ad2' 'ad1 ad1 ad1 ad2 ad2' 'finish finish finish footer footer' 'finish finish finish footer footer'; text-align:center; padding:30px; grid-gap:5px;}
+#aboutFlex1 {grid-area: topstory; background-color:#CA02F3; padding-top:10px; padding-bottom:10px;}
+#aboutFlex2 {grid-area: ad1; background-color:#7FC507;}
+#aboutFlex3 {grid-area: ad2; background-color:#4851F4;}
+#aboutFlex4 {grid-area: finish; background-color:#1C2FF6;}
+#aboutFlex5 {grid-area: footer; background-color:#FF5A6C;}
+
+
+/*blog.html*/
+.card {width:75%; padding:25px; align-content:center; margin-top:10px; margin-bottom:10px; border-left:2px solid #b87333; border-bottom:2px solid #b87333;}
+.card:hover {border:2px solid #000;}
+#climatechangeblogimage {margin-top:30px;}
+.card-header { margin-left:50px;}
+#climatechangetitle {font-size:20px; background-color:#fff; text-align:center;}
+#climatechangetitle:hover {text-decoration:underline; text-decoration-color:#b87333; font-weight:700;}
+.card-body { margin-left:50px;}
+#climatechangetext {}
