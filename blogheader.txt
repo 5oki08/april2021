@@ -4,10 +4,12 @@
 3) SHOPPING
 5) SPORTS 
 6)TECHNOLOGY
-7)Meme Post
+<!-- 7)Meme Post -->
 8)Inspirational Post
 9)Rant Post
 10)Holiday Post
+
+25/04/2021
 11)Pollution and sollution
 12)Racisim , the burning issue
 13)Internet:Good and bad effect of internet
