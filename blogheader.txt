@@ -1,13 +1,13 @@
 
-1) Climate change
-2) HEALTH
-3) SHOPPING
-5) SPORTS 
-6)TECHNOLOGY
-<!-- 7)Meme Post -->
-8)Inspirational Post
-9)Rant Post
-10)Holiday Post
+1) Climate change - sports,shopping,technology,health
+2) HEALTH - rant,technology,shopping,inspirational
+3) SHOPPING -health,holiday,inspiration,climate
+5) SPORTS - rant,climate,health,holiday
+6)TECHNOLOGY - climate,shopping,sports,holiday
+<!--7)Meme Post-->
+8)Inspirational Post - sports,health,technology,climate
+9)Rant Post - climate,sports,shopping,technology
+10)Holiday Post - health,technology,shopping,rant
 
 25/04/2021
 11)Pollution and sollution
