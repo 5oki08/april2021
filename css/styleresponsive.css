@@ -9,7 +9,7 @@ figcaption {text-align:none;}
 #introStmt {margin:none; text-align:center; margin-top:20px;}
 
 /*blog.html*/
-.card {border:5px solid tomato; width:100%; padding:25px;}
+.card {border:none; width:100%;}
 #climatechangeblogimage {}
 .card-header {margin:none;}
 #climatechangetitle {}
@@ -18,10 +18,13 @@ figcaption {text-align:none;}
 
 
 /*climatechange.html*/
-.blogpicture {width:400px; height:200px; margin-left:30px;}
-.summaryNav {width:400px; border:2px solid #000; text-align:center; margin-left:20px;}
+.blogpicture {width:500px; height:280px;}
+.otherBlogSummary {grid-gap:5px;}
+.summaryNav {text-align:center; width:300px; margin-left:50px;}
 .summaryNav:hover {border:none;}
-.blogSummaryimg {width:70px;}
+.blogSummaryimg {}
+/*healthblog.html*/
+/*shoppingblog.html*/
 
 
 
